@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dreams8</title><link>/</link><description></description><atom:link href="/feed.xml" rel="self"></atom:link><lastBuildDate>Thu, 10 Dec 2015 17:49:00 -0000</lastBuildDate></channel></rss>
-=======
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dreams8</title><link>/</link><description></description><atom:link href="/feed.xml" rel="self"></atom:link><lastBuildDate>Thu, 17 Dec 2015 11:01:00 +0800</lastBuildDate><item><title>Roles: 增强Playbooks功能</title><link>/ansible/roles_scaling_up_your_playbooks.html</link><description>&lt;p&gt;我喜欢Ansible其中一点原因是它能更好的向上及向下扩展。我不是指你所管理的主机数量，而是想实现自动化的工作的复杂性。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dreams8</title><link href="/" rel="alternate"></link><link href="/feeds/lee.atom.xml" rel="self"></link><id>/</id><updated>2015-12-17T11:01:00+08:00</updated><entry><title>Roles: 增强Playbooks功能</title><link href="/ansible/roles_scaling_up_your_playbooks.html" rel="alternate"></link><updated>2015-12-17T11:01:00+08:00</updated><author><name>lee</name></author><id>tag:,2015-12-17:ansible/roles_scaling_up_your_playbooks.html</id><summary type="html">&lt;p&gt;我喜欢Ansible其中一点原因是它能更好的向上及向下扩展。我不是指你所管理的主机数量，而是想实现自动化的工作的复杂性。
 在Ansible里，role主要的机制就是把playbook拆分成多个文件，这样的好处就是简化编写playbook复杂度并且可复用。比如，database role会在一批机器部署成为数据库服务器。&lt;/p&gt;
 &lt;h2 id="2e0816c78d650841372945547969cb0f"&gt;Role基本结构&lt;/h2&gt;
 &lt;p&gt;Ansible role都有一个名称，如role “database”，数据库相关的配置都会放在roles/database，其中包含下列文件和目录：&lt;/p&gt;
@@ -397,7 +394,7 @@ bennojoy.ntp was installed successfully
 &lt;div class="codehilite"&gt;&lt;pre&gt;ansible-galaxy list
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;卸载命令：
-    ansible-galaxy remove bennojoy.ntp&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">lee</dc:creator><pubDate>Thu, 17 Dec 2015 11:01:00 +0800</pubDate><guid>tag:,2015-12-17:ansible/roles_scaling_up_your_playbooks.html</guid><category>ansible</category><category>roles</category></item><item><title>Ansible节点配置文件(Inventory)</title><link>/ansible/doc_intro_inventory.html</link><description>&lt;h1 id="4d604dd8f008145471dc845683399189"&gt;&lt;a href="http://docs.ansible.com/ansible/intro_inventory.html" title="Inventory"&gt;Inventory&lt;/a&gt;&lt;/h1&gt;
+    ansible-galaxy remove bennojoy.ntp&lt;/p&gt;</summary><category term="ansible"></category><category term="roles"></category></entry><entry><title>Ansible节点配置文件(Inventory)</title><link href="/ansible/doc_intro_inventory.html" rel="alternate"></link><updated>2015-12-15T14:01:00+08:00</updated><author><name>lee</name></author><id>tag:,2015-12-15:ansible/doc_intro_inventory.html</id><summary type="html">&lt;h1 id="4d604dd8f008145471dc845683399189"&gt;&lt;a href="http://docs.ansible.com/ansible/intro_inventory.html" title="Inventory"&gt;Inventory&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Ansible通过读取默认的节点配置文件/etc/ansible/hosts，可以同时连接到多个节点上执行任务。&lt;/p&gt;
 &lt;p&gt;当然，您也可以使用多个节点配置文件，以及&lt;a href="ansible/intro_dynamic_inventory.html" title="动态获取节点配置文件"&gt;动态获取节点配置文件&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id="1b1689b625e9ed10478ef3e46cdc82c2"&gt;Hosts and Groups&lt;/h2&gt;
@@ -592,5 +589,4 @@ ruby_module_host  ansible_ruby_interpreter=/usr/bin/ruby.1.9.3
    &lt;code&gt;Mailing List &amp;lt;http://groups.google.com/group/ansible-project&amp;gt;&lt;/code&gt;&lt;em&gt;
        Questions? Help? Ideas?  Stop by the list on Google Groups
    &lt;code&gt;irc.freenode.net &amp;lt;http://irc.freenode.net&amp;gt;&lt;/code&gt;&lt;/em&gt;
-       #ansible IRC chat channel&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">lee</dc:creator><pubDate>Tue, 15 Dec 2015 14:01:00 +0800</pubDate><guid>tag:,2015-12-15:ansible/doc_intro_inventory.html</guid><category>ansible</category><category>inventory</category></item></channel></rss>
->>>>>>> gh-pages
+       #ansible IRC chat channel&lt;/p&gt;</summary><category term="ansible"></category><category term="inventory"></category></entry></feed>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dreams8</title><link>/</link><description></description><atom:link href="/feed.xml" rel="self"></atom:link><lastBuildDate>Thu, 10 Dec 2015 17:49:00 -0000</lastBuildDate></channel></rss>
-=======
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dreams8</title><link>/</link><description></description><atom:link href="/feed.xml" rel="self"></atom:link><lastBuildDate>Thu, 17 Dec 2015 11:01:00 +0800</lastBuildDate><item><title>Roles: 增强Playbooks功能</title><link>/ansible/roles_scaling_up_your_playbooks.html</link><description>&lt;p&gt;我喜欢Ansible其中一点原因是它能更好的向上及向下扩展。我不是指你所管理的主机数量，而是想实现自动化的工作的复杂性。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dreams8</title><link>/</link><description></description><atom:link href="/feeds/lee.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 17 Dec 2015 11:01:00 +0800</lastBuildDate><item><title>Roles: 增强Playbooks功能</title><link>/ansible/roles_scaling_up_your_playbooks.html</link><description>&lt;p&gt;我喜欢Ansible其中一点原因是它能更好的向上及向下扩展。我不是指你所管理的主机数量，而是想实现自动化的工作的复杂性。
 在Ansible里，role主要的机制就是把playbook拆分成多个文件，这样的好处就是简化编写playbook复杂度并且可复用。比如，database role会在一批机器部署成为数据库服务器。&lt;/p&gt;
 &lt;h2 id="2e0816c78d650841372945547969cb0f"&gt;Role基本结构&lt;/h2&gt;
 &lt;p&gt;Ansible role都有一个名称，如role “database”，数据库相关的配置都会放在roles/database，其中包含下列文件和目录：&lt;/p&gt;
@@ -593,4 +590,3 @@ ruby_module_host  ansible_ruby_interpreter=/usr/bin/ruby.1.9.3
        Questions? Help? Ideas?  Stop by the list on Google Groups
    &lt;code&gt;irc.freenode.net &amp;lt;http://irc.freenode.net&amp;gt;&lt;/code&gt;&lt;/em&gt;
        #ansible IRC chat channel&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">lee</dc:creator><pubDate>Tue, 15 Dec 2015 14:01:00 +0800</pubDate><guid>tag:,2015-12-15:ansible/doc_intro_inventory.html</guid><category>ansible</category><category>inventory</category></item></channel></rss>
->>>>>>> gh-pages
